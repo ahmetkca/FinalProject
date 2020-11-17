@@ -4,7 +4,4 @@ p{
 	font-weight: bold;
 }
 
-table{
-	border-width: 10px;
-	border-color: brown;
-}
+td{border: solid 5pt paleturquoise; width: 500pt; padding: 30pt;}
