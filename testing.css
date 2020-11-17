@@ -3,3 +3,8 @@ p{
 	color: blue;
 	font-weight: bold;
 }
+
+table{
+	border-width: 10px;
+	border-color: brown;
+}

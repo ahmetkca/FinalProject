@@ -1,0 +1,348 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"long",
+				"Longitude"
+			],
+			[
+				"map",
+				"maps_array"
+			],
+			[
+				"maps",
+				"maps_json"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"data",
+				"data_arr"
+			],
+			[
+				"con",
+				"connection"
+			],
+			[
+				"mysqli_co",
+				"mysqli_connect_errno"
+			],
+			[
+				"wi",
+				"weight"
+			],
+			[
+				"w",
+				"weight"
+			],
+			[
+				"f",
+				"fieldset\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"cake",
+				"cakestyle"
+			],
+			[
+				"bu",
+				"budget"
+			],
+			[
+				"ge",
+				"getElementsByName"
+			],
+			[
+				"tot",
+				"total"
+			],
+			[
+				"num",
+				"numSlices"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"or",
+				"orange"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"bord",
+				"border-radius\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"a",
+				"auto\tmargin"
+			],
+			[
+				"720s",
+				"720s-spider"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Saaransh Sharma/Documents/GitHub/FinalProject/deleteMe.html",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/saaranshAssignment2/cakeStyle.css",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/saaranshAssignment2/cakeScript.js",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/saaranshAssignment2/cakeMenu.html",
+		"/C/wamp64/www/databases.php",
+		"/C/wamp64/www/bmi.php",
+		"/C/wamp64/www/main.css",
+		"/C/wamp64/www/Lab3.php",
+		"/C/wamp64/www/process.php",
+		"/C/wamp64/www/form.php",
+		"/C/wamp64/www/practice.php",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/Lab1/Portfolio.html",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/Lab1/main.css",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/saaranshAssignment1/saaranshAssignment1.html",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/bootstrap-4.5.2-dist/Lab2/index.html",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/bootstrap-4.5.2-dist/Lab2/main.css",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/bootstrap-4.5.2-dist/Lab2/server.js",
+		"/C/Users/Saaransh Sharma/Downloads/main.css",
+		"/C/Users/Saaransh Sharma/Downloads/index.html",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/bootstrap-4.5.2-dist/Lab2/index2.html",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/bootstrap-4.5.2-dist/Lab2/style.css",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/bootstrap-4.5.2-dist/server.js",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/bootstrap-4.5.2-dist/style.css",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/bootstrap-4.5.2-dist/index.html",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/bootstrap-4.5.2-dist/index2.html",
+		"/C/Users/Saaransh Sharma/Documents/2. Web Programming/Prelab2/debug.html",
+		"/C/Users/Saaransh Sharma/Documents/Web Programming/saaranshAssignment1/saaranshAssignment1.html",
+		"/C/Users/Saaransh Sharma/Documents/Web Programming/Lab1/Portfolio.html",
+		"/C/Users/Saaransh Sharma/Documents/Web Programming/saaranshWebActivity.css",
+		"/C/Users/Saaransh Sharma/Documents/Web Programming/saaranshWebActivity.html",
+		"/C/Users/Saaransh Sharma/Documents/Web Programming/saaranshWebActivity",
+		"/C/Users/Saaransh Sharma/Documents/Web Programming/Lab1/main.css"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "deleteMe.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
