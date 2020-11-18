@@ -1,1 +1,22 @@
-
+/* Modify the background color */ 
+					          
+.navbar-custom { 
+    background-color: orange; 
+} 
+/* Modify brand and text color */ 
+  
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: White; 
+    font-size: 20pt;
+    padding-top: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+} 
+a:hover {
+    background-color: rgb(81, 185, 255);
+    color:rgb(81, 185, 255);
+    border-radius: 10px;
+    
+}
