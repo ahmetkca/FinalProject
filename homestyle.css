@@ -1,5 +1,15 @@
 /* Modify the background color */ 
-					          
+.navbar-b{
+    overflow: hidden;
+    background-color: orange;
+
+    bottom: 0;
+    width: 100%;
+    text-align: Center;
+    font-size: 20pt;
+    color:white;
+}
+
 .navbar-custom { 
     background-color: orange; 
 } 
