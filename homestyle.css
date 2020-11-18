@@ -2,7 +2,7 @@
 .navbar-b{
     overflow: hidden;
     background-color: orange;
-    position: fixed; // get rid of this once you have something between navbar and footer
+    position: fixed; /* get rid of this once you have something between navbar and footer*/
     bottom: 0;
     width: 100%;
     text-align: Center;
