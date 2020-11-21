@@ -28,12 +28,13 @@
                 
             }
 .imageSize
-           {
+           {    
+                
                 margin-left: 5%;
                 align-content: center;
                 width: 750px;
                 height: 750px;
-                border-image: 
+                border-image: 25px;
             }
 .playButton
             {
