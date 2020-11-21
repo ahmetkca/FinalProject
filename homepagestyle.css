@@ -8,10 +8,12 @@
     text-align: Center;
     font-size: 10pt;
     color:white;
+    
 }
 
 .navbar-custom { 
     background-color: orange; 
+    
 } 
 /* Modify brand and text color */ 
   
@@ -31,10 +33,15 @@ a:hover {
     
 }
 
+.navbar-brand{
+    font-family: 'Oswald', sans-serif;
+}
+
 h1{
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    font-size: 30pt;
+    font-size: 60pt;
+    color:rgb(81, 185, 255);
 }
 
   #prev {
@@ -57,4 +64,9 @@ h1{
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+  }
+
+  table{
+    margin-left: auto; 
+    margin-right: auto;
   }
