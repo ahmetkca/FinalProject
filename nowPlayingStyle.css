@@ -8,6 +8,7 @@ table{
 }
 .sin{
     margin: 5%;
+    width:85%;
 }
 .upperinfo{
     padding: 5pt;
@@ -15,9 +16,4 @@ table{
 .tdA{
     float: middle;
 }
-.trail{
-    border: none;
-    background-color: white;
-    width: 8%;
-    height: 8%;
-}
+
