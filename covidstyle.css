@@ -1,3 +1,4 @@
+
 h1{
     margin-left: 40%;
 }
@@ -6,8 +7,7 @@ h2{
 }
 p{
     margin-left: 10%;
-    border-bottom: 3%;
-    border-color: orange;
+    width: 80%;
 }
 ul{
     margin-left: 10%;
