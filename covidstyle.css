@@ -19,7 +19,9 @@ ul{
     padding-bottom: 2%;
     
 }
-div.blockoff{
-    border: 3px;
+.blockoff{
+    border-bottom-width: 3px;
+    border-bottom-color: orange;
+    width: 80%;
 
 }
