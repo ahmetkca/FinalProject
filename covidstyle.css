@@ -1,6 +1,7 @@
 
 h1{
     margin-left: 40%;
+    font-size: ;
 }
 h2{
     margin-left: 10%;
@@ -18,10 +19,4 @@ ul{
     margin-left: 22%;
     padding-bottom: 2%;
     
-}
-.blockoff{
-    border-bottom-width: 3px;
-    border-bottom-color: orange;
-    width: 80%;
-
 }
