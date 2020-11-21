@@ -33,6 +33,10 @@ a:hover {
     
 }
 
+.navbar-brand{
+    font-family: 'Oswald', sans-serif;
+}
+
 h1{
     font-family: 'Oswald', sans-serif;
     text-align: center;
