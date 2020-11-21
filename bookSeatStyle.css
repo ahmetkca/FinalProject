@@ -9,6 +9,10 @@
     padding-left:2% ;
     
 }
+.seatLegend ul li {
+    text-align: left;
+    list-style: none;
+}
 td {
   padding-left: 15px;
   padding-right: 15px;
