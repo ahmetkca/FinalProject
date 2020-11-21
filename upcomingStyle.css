@@ -1,3 +1,12 @@
+.row:after
+            {
+                border: 5px solid black;
+                content:"";
+                clear: both;
+                display: table;
+            }
+
+
 .column
             {
                 float: left;
@@ -9,7 +18,21 @@
             {
                 background-color: blue;
                 float: left;
-                width: 60%;
+                width: 66.6%;
                 padding: 2px;
                 
             }
+.imageSize
+           {
+                align-content: center;
+                width: 500px;
+                height: 600px;
+            }
+.playButton
+            {
+                width: 25px;
+                height: 25px;
+            }
+p{
+   font-size: 20pt; 
+}
