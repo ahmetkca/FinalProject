@@ -1,11 +1,18 @@
 table{
-    border: 1px solid black;
-    width: 100%;
+    border: 2px solid black;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 
 }    
-th, td {
+td {
   padding: 15px;
   text-align: center;
+}
+th{
+    text-align: center;
+    padding-left: 50%;
+}
+h1{
+    text-align: center;
 }

@@ -20,3 +20,8 @@ ul{
     padding-bottom: 2%;
     
 }
+a:hover.override{
+    background-color: lightgrey;
+    color:rgb(81, 185, 255);
+    border-radius: 4px;
+}
