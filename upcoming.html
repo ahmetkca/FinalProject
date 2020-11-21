@@ -2,7 +2,7 @@
 	<html>
 				<head>
                     <title>Upcoming</title>
-                        
+                        <script type="text/javascript" src="upcoming.js"></script>
 						<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 						<link rel="stylesheet" type="text/css" href="homestyle.css">
 						<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">	
@@ -27,8 +27,14 @@
         					
         					<div class="column">
         						<img class="imageSize" src="images/empire.png" style="padding:30pt";>
-        						<button id ="likeB" type = "button" onclick="loadXMLDoc()">Like</button>
-        						<button id ="likeB" type = "button" onclick="loadXMLDoc()">Like</button>
+        						<div class="btn-group">
+        						
+        						
+        						<p id="lClicks" >0</p>
+								<button id="lClicks" style="background-color:orange" onclick="AddLike()">Like</button>
+								<p id="dClicks">0</p>
+								<button id="dClicks" style="background-color:orange" onclick="AdddisLike()">Dislike</button>
+							</div>
         					</div>
 
         					<div class="column2" >
@@ -52,34 +58,7 @@
 
         				</div>
 
-        					<div class="row">
         					
-        					<div class="column">
-        						<img class="imageSize" src="images/empire.png" style="padding:30pt";>
-        						<button id ="myBut" type = "button" onclick="loadXMLDoc()">Like</button>
-        					</div>
-
-        					<div class="column2" >
-        						<br><br><br>
-        						<h1><u>Star Wars The Empire Strikes Back</u></h1><br>
-        						<p class="upcoming-p">
-        							Run time: 125 min<br>
-        							Rating: PG<br>
-        							Genre: Adventure/Sci-Fi<br><br><br>
-        							Trailer <a rel="stylesheet" type="text/css" href="https://www.youtube.com/watch?v=JNwNXF9Y6kY&ab_channel=StarWars" target="_blank"><img class="playButton" src="images/play.png" target="_blank"></a>
-        						</p >
-
-        						<p class="upcoming-p">
-        							Cast: Mark Hamill, Harrison Ford, Carrie Fisher, Alec Guinness and Peter Cushing
-        						<br>
-	     						</p>
-
-	     						<h2><u>Synopsis</u></h2><br>
-	     						<p class="upcoming-p">After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker<br> begins Jedi training with Yoda, while his friends are pursued by Darth Vader and a bounty hunter<br> named Boba Fett all over the galaxy.</p>
-        					</div>
-
-        				</div>
-        				
 
 
                         <div class="navbar-b">
