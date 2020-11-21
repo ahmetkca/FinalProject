@@ -19,7 +19,7 @@ ul{
     padding-bottom: 2%;
     
 }
-.blockoff{
+div.blockoff{
     border-style: groved;
     border-bottom-width: 3px;
 }
