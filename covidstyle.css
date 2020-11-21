@@ -20,5 +20,6 @@ ul{
     
 }
 .blockoff{
+    border-style: groved;
     border-bottom-width: 3px;
 }
