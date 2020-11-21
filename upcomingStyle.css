@@ -25,8 +25,9 @@
 .imageSize
            {
                 align-content: center;
-                width: 500px;
-                height: 600px;
+                width: 750px;
+                height: 750px;
+                border-image: 
             }
 .playButton
             {
