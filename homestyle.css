@@ -30,3 +30,6 @@ a:hover {
     border-radius: 10px;
     
 }
+.navbar-brand{
+    font-family: 'Oswald', sans-serif;
+}
