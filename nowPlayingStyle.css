@@ -12,4 +12,12 @@ table{
 .upperinfo{
     padding: 5pt;
 }
-
+.tdA{
+    float: middle;
+}
+.trail{
+    border: none;
+    background-color: white;
+    width: 8%;
+    height: 8%;
+}
