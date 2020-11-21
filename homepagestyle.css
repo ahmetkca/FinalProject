@@ -71,6 +71,10 @@ h1{
     margin-right: auto;
   }
 
+  td{
+    color: white;
+  }
+
   #maps{
       font-size: 30pt;
       text-align: center;
