@@ -1,3 +1,4 @@
+
 h1{
     margin-left: 40%;
 }
@@ -6,11 +7,15 @@ h2{
 }
 p{
     margin-left: 10%;
+    width: 80%;
 }
 ul{
-    margin-left: 12%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    width: 80%;
 }
 .center{
     margin-left: 22%;
+    padding-bottom: 2%;
     
 }
