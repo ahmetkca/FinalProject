@@ -1,0 +1,15 @@
+.column
+            {
+                float: left;
+                width: 33.3%;
+                padding: 2px;
+                
+            }
+.column2
+            {
+                background-color: blue;
+                float: left;
+                width: 60%;
+                padding: 2px;
+                
+            }
