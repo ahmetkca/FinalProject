@@ -7,7 +7,7 @@
 					    
 							<link rel="stylesheet" href ="homepagestyle.css">
 						
-							<script type="text/javascript" src ="slideshow.js"></script>
+							<script type="text/javascript" src ="homepagejava.js"></script>
                         
 				</head>
 
@@ -32,15 +32,16 @@
 								<tr>
 
 									<td>
-										<a id="prev">&#10094;</a>
+										<a id="prev" onclick="slideshow()">&#10094;</a>
 									</td>
 
 									<td>
-										<img src="images/freaky.jpg" height="450" width="800">
+										<img src="images/freaky.jpg" height="450" width="800" id = "0">
+										<img src="images/downton.jpg" height="450" width="800" id = "1">
 									</td>
 
 									<td>
-										<a id="next">&#10095;</a>
+										<a id="next" onclick="slideshow()">&#10095;</a>
 									</td>
 
 								</tr>

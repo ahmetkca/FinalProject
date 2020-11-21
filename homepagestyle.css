@@ -34,7 +34,7 @@ a:hover {
   #prev {
     cursor: pointer;
     padding: 16px;
-    color: rgb(81, 185, 255);
+    color: orange;
     font-weight: bold;
     font-size: 100pt;
     transition: 0.6s ease;
@@ -45,7 +45,7 @@ a:hover {
   #next {
     cursor: pointer;
     padding: 16px;
-    color: rgb(81, 185, 255);
+    color: orange;
     font-weight: bold;
     font-size: 100pt;
     transition: 0.6s ease;
