@@ -27,6 +27,7 @@
         					
         					<div class="column">
         						<img class="imageSize" src="images/empire.png" style="padding:30pt";>
+        						<button id ="myBut" type = "button" onclick="loadXMLDoc()">Like</button>
         					</div>
 
         					<div class="column2" >
@@ -36,35 +37,37 @@
         							Run time: 125 min<br>
         							Rating: PG<br>
         							Genre: Adventure/Sci-Fi<br><br><br>
-        							Trailer <a rel="stylesheet" type="text/css" href="https://www.youtube.com/watch?v=JNwNXF9Y6kY&ab_channel=StarWars"><img class="playButton" src="images/play.png" target="_blank"></a>
+        							Trailer <a rel="stylesheet" type="text/css" href="https://www.youtube.com/watch?v=JNwNXF9Y6kY&ab_channel=StarWars" target="_blank"><img class="playButton" src="images/play.png" target="_blank"></a>
         						</p >
 
         						<p class="upcoming-p">
         							Cast: Mark Hamill, Harrison Ford, Carrie Fisher, Alec Guinness and Peter Cushing
+        						<br>
+	     						</p>
 
-
-
-        						</p>
-
+	     						<h2><u>Synopsis</u></h2><br>
+	     						<p class="upcoming-p">After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker<br> begins Jedi training with Yoda, while his friends are pursued by Darth Vader and a bounty hunter<br> named Boba Fett all over the galaxy.</p>
         					</div>
 
-
-
-
-
-
-
-
-
         				</div>
+        				    <script>
 
-
-
-
-
-
-
-
+									        function loadXMLDoc()
+									        {
+									            var xmlhttp = new XMLHttpRequest();
+									            xmlhttp.open("GET","text.txt",true);
+									            xmlhttp.send();
+									        
+									    
+									            xmlhttp.onreadystatechange=function()
+									            {
+									                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+									                {
+									                    document.getElementById("myBut").innerHTML= xmlhttp.responseText;
+									                }
+									            }
+									        }
+						    </script>
 
 
 
