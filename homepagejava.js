@@ -12,12 +12,12 @@ function nextslide(){
 
 }
 
-function nextslide(){
+function prevslide(){
 
-    slidecount++;
+    slidecount--;
 
-    if(slidecount > 4){
-        slidecount = 0;
+    if(slidecount < 0){
+        slidecount = 4;
     }
 
     slide();
