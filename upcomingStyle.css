@@ -9,24 +9,26 @@
 
 .column
             {
-                border-left: 5pt solid black;
-                border-top: 5pt solid black;
-                border-bottom: 5pt solid black;
+                border-bottom: 5pt solid orange;
                 float: left;
                 width: 33.3%;
-                padding: 2px;
-                
+                 
             }
 .column2
             {
-                border-right: 5pt solid black;
-                border-bottom: 5pt solid black;
-                border-top: 5pt solid black;
+                
+                border-bottom: 5pt solid orange;
                 float: left;
                 width: 66.6%;
-                padding: 2px;
+                
                 
             }
+.newcolumn{
+
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: dotted;
+}
 .imageSize
            {    
                 
@@ -38,17 +40,7 @@
             }
 .playButton
             {
-                width: 40px;
-                height: 45px;
+                width: 27px;
+                height: 27px;
             }
-.upcoming-p {
-                font-size: 20pt; 
-            }
-#lClicks      {
-                margin-left:0px;
 
-            }
-#dClicks      {
-                margin-left:0px;
-
-            }
