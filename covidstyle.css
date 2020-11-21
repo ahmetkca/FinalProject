@@ -6,12 +6,13 @@ h2{
 }
 p{
     margin-left: 10%;
+    border-bottom: 3%;
+    border-color: orange;
 }
 ul{
     margin-left: 10%;
     margin-bottom: 2%;
-    border-bottom: 3%;
-    border-color: orange;
+    
 }
 .center{
     margin-left: 22%;
