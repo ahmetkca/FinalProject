@@ -19,7 +19,9 @@
             }
 .column2
             {
-                border: 5pt solid black;
+                border-right: 5pt solid black;
+                border-bottom: 5pt solid black;
+                border-top: 5pt solid black;
                 float: left;
                 width: 66.6%;
                 padding: 2px;
@@ -38,6 +40,6 @@
                 width: 30px;
                 height: 30px;
             }
-p{
-   font-size: 20pt; 
-}
+p           {
+                font-size: 20pt; 
+            }
