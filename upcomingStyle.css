@@ -9,6 +9,9 @@
 
 .column
             {
+                border-left: 5pt solid black;
+                border-top: 5pt solid black;
+                border-bottom: 5pt solid black;
                 float: left;
                 width: 33.3%;
                 padding: 2px;
@@ -16,7 +19,7 @@
             }
 .column2
             {
-                background-color: blue;
+                border: 5pt solid black;
                 float: left;
                 width: 66.6%;
                 padding: 2px;
@@ -24,6 +27,7 @@
             }
 .imageSize
            {
+                margin-left: 5%;
                 align-content: center;
                 width: 750px;
                 height: 750px;
@@ -31,8 +35,8 @@
             }
 .playButton
             {
-                width: 25px;
-                height: 25px;
+                width: 30px;
+                height: 30px;
             }
 p{
    font-size: 20pt; 
