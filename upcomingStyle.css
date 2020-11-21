@@ -32,8 +32,8 @@
                 
                 margin-left: 5%;
                 align-content: center;
-                width: 600px;
-                height: 600px;
+                width: 500px;
+                height: 500px;
                 border-image: 25px; 
             }
 .playButton
@@ -45,23 +45,10 @@
                 font-size: 20pt; 
             }
 #lClicks      {
-                margin-left:200px;
+                margin-left:0px;
 
             }
 #dClicks      {
                 margin-left:0px;
 
             }
-.btn-group:after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.btn-group button {
-  background-color: #4CAF50; /* Green background */
-  border: 1px solid green; /* Green border */
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  float: left; /* Float the buttons side by side */
-}
