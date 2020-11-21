@@ -4,8 +4,11 @@
     margin-left: auto;
     margin-right: auto;
     
-
 }    
+.seatLegend{
+    padding-left:2% ;
+    
+}
 td {
   padding-left: 15px;
   padding-right: 15px;
