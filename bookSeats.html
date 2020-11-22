@@ -179,19 +179,32 @@
 
 
 								<tr>
-									<td><button type="button" style="background-color:orange" onclick="addPopcorn()"></button></td>
-									<td><button type="button" style="background-color:orange" onclick="addCoke()"></button></td>
-									<td><button type="button" style="background-color:orange" onclick="addCandy()"></button></td>
-									<td><button type="button" style="background-color:orange" onclick="addNachos()"></button></td>
+									
+									<td>
+										<button type="button" style="background-color:orange" onclick="addPopcorn()">+</button>
+										<button type="button" style="background-color:orange" onclick="minusPopcorn()">-</button>
+										<p>Popcorn: <span id="popcornOut">0</span></p>
+									</td>
+									
+									<td>
+										<button type="button" style="background-color:orange" onclick="addCoke()">+</button>
+										<button type="button" style="background-color:orange" onclick="minusCoke()">-</button>
+										<p>Coke: <span id="cokeOut">0</span></p>
+									</td>
+									<td>
+										<button type="button" style="background-color:orange" onclick="addCandy()">+</button>
+										<button type="button" style="background-color:orange" onclick="minusCandy()">-</button>
+										<p>Candy: <span id="candyOut">0</span></p>
+									</td>
+									<td>
+										<button type="button" style="background-color:orange" onclick="addNachos()">+</button>
+										<button type="button" style="background-color:orange" onclick="minusNachos()">-</button>
+										<p>Nachos: <span id="nachosOut">0</span></p>
+									</td>
+									
 
 								</tr>
 
-								<tr>
-									<td>Popcorn: <p id="popNum">0</p></td>
-									<td>Coke: <p id="cokeNum">0</p></td>
-									<td>Candy: <p id="candyNum">0</p></td>
-									<td>Nachos: <p id="nachoNum">0</p></td>
-								</tr>
 
 							</table>
 
