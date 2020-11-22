@@ -17,8 +17,7 @@
 .column2
             {
                 padding-left: 5pt;
-                border-left: 3pt groove orange;
-                border-right: 3pt solid orange;
+            
                 border-bottom: 5pt solid orange;
                 float: left;
                 width: 33%;
