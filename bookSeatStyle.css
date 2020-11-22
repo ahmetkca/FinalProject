@@ -12,12 +12,14 @@
 .seatLegend ul li {
     text-align: left;
     list-style: none;
+    padding-bottom: 2%;
 }
 .seatLegend button{
     background-color: orange;
-    border-radius: 4px;
+    border-radius: 14px;
     width: 45%;
     text-align: center;
+    font-size: 125%;
 }
 .add:hover{
     background-color: rgb(67, 196, 16);
