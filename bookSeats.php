@@ -10,7 +10,6 @@
 						<link rel="stylesheet" href = "bookSeatStyle.css">
 						<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 						
-						
 				</head>
 
 
@@ -32,8 +31,25 @@
 						<div class="seatSelection">
 
 							<table class="selectSeat">
-								
-
+								<?php
+								$myfile = fopen("seats.txt", "r") or die("Unable to open file!");
+								$num_row = 1;
+								while(!feof($myfile)) {
+									$current_line = fgets($myfile);
+									$row_seats = explode(", ", $current_line);
+									echo "<tr>";
+									for ($i = 0; $i < count($row_seats); $i+=1) {
+										// 0 = free, 1 = free
+										if ($row_seats[$i] == 0) {
+											echo '<td><input type="checkbox" style="display: none;" id="r1c1" name="r1c1" value=""><label for="r1c1"><img src="images/freeseat.png" height="20" width="20"/></label></td>';
+										} else {
+											
+										}
+									}
+									$row+=1;
+								}
+								?>			
+	<!--
 								<tr>
 
 									<td><input type="checkbox" style="display: none;" id="r1c1" name="r1c1" value=""><label for="r1c1"><img src="images/freeseat.png" height="20" width="20"/></label></td>
@@ -108,7 +124,7 @@
 								
 								
 								</tr>
-
+							-->
 							</table>
 
 						</div>
@@ -182,24 +198,24 @@
 								<tr>
 									
 									<td>
-										<button type="button" style="background-color:orange" onclick="addPopcorn()">+</button>
-										<button type="button" style="background-color:orange" onclick="minusPopcorn()">-</button>
+										<button type="button"  onclick="addPopcorn()" class="add">+</button>
+										<button type="button"  onclick="minusPopcorn()" class="minus">-</button>
 										<p>Popcorn: <span id="popcornOut">0</span></p>
 									</td>
 									
 									<td>
-										<button type="button" style="background-color:orange" onclick="addCoke()">+</button>
-										<button type="button" style="background-color:orange" onclick="minusCoke()">-</button>
+										<button type="button"  onclick="addCoke()" class="add">+</button>
+										<button type="button"  onclick="minusCoke()" class="minus">-</button>
 										<p>Coke: <span id="cokeOut">0</span></p>
 									</td>
 									<td>
-										<button type="button" style="background-color:orange" onclick="addCandy()">+</button>
-										<button type="button" style="background-color:orange" onclick="minusCandy()">-</button>
+										<button type="button"  onclick="addCandy()" class="add">+</button>
+										<button type="button"  onclick="minusCandy()" class="minus">-</button>
 										<p>Candy: <span id="candyOut">0</span></p>
 									</td>
 									<td>
-										<button type="button" style="background-color:orange" onclick="addNachos()">+</button>
-										<button type="button" style="background-color:orange" onclick="minusNachos()">-</button>
+										<button type="button"  onclick="addNachos()" class="add">+</button>
+										<button type="button"  onclick="minusNachos()" class="minus">-</button>
 										<p>Nachos: <span id="nachosOut">0</span></p>
 									</td>
 									
