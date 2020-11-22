@@ -43,7 +43,7 @@
 										if ($row_seats[$i] == 0) {
 											echo '<td><input type="checkbox" style="display: none;" id="r1c1" name="r1c1" value=""><label for="r1c1"><img src="images/freeseat.png" height="20" width="20"/></label></td>';
 										} else {
-
+											
 										}
 									}
 									$row+=1;
