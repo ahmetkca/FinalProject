@@ -13,7 +13,11 @@ function addPopcorn() {
 }
 
 function minusPopcorn() {
-
+        if(popcorn >=1 && popcorn <6)
+        {
+        popcorn--;
+        document.getElementById("popcornOut").innerHTML = popcorn;
+        }
 }
 
 function addCoke() {
@@ -28,7 +32,10 @@ function addCoke() {
 }
 
 function minusCoke() {
-
+    if(coke >=1 && coke <6){
+        coke--;
+        document.getElementById("cokeOut").innerHTML = coke;
+    }
 }
 
 function addCandy() {
@@ -41,7 +48,10 @@ function addCandy() {
 }
 
 function minusCandy() {
-
+     if(candy >=1 && candy <6){
+        candy--;
+        document.getElementById("candyOut").innerHTML = candy;
+    }
 }
 
 function addNachos() {
@@ -54,5 +64,8 @@ function addNachos() {
 }
 
 function minusNachos() {
-
+     if(nachos >=1 && nachos <6){
+        nachos--;
+        document.getElementById("nachosOut").innerHTML = nachos;
+    }
 }
