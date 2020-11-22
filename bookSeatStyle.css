@@ -13,6 +13,18 @@
     text-align: left;
     list-style: none;
 }
+.seatLegend button{
+    background-color: orange;
+    border-radius: 4px;
+    width: 45%;
+    text-align: center;
+}
+.add:hover{
+    background-color: rgb(67, 196, 16);
+}
+.minus:hover{
+    background-color: rgb(241, 89, 63);
+}
 td {
   padding-left: 15px;
   padding-right: 15px;
